@@ -199,10 +199,14 @@ li.bookFair a {
   top: 160px;
   overflow: hidden;
   opacity: 0;
+  transition: 0.4s;
 }
 
 .firstCatWriter ul li a {
   text-decoration: none;
   color: #333;
   font-size: 18px;
+}
+.mkHover a:hover+.writer{
+  opacity: 1;
 }
