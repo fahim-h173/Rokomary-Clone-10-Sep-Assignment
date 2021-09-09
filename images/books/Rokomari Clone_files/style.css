@@ -58,7 +58,7 @@ input[type="Search"] {
   padding: 14px;
   position: absolute;
   top: 20px;
-  right: 403px;
+  right: 398px;
 }
 .cart {
   width: 58px;
@@ -80,7 +80,7 @@ input[type="Search"] {
 
 input[type="button"] {
   background: #fff;
-  padding: 8px 14px;
+  padding: 10px 14px;
   border: 1px solid #6c757d;
   border-radius: 5px;
   font-size: 17px;
@@ -94,8 +94,9 @@ input[type="button"]:hover {
   height: 45px;
 }
 .firstMenue {
-  width: 818px;
-  margin-left: 245px;
+  overflow: hidden;
+  width: 823px;
+  margin-left: 228px;
 }
 
 .container {
@@ -106,7 +107,7 @@ input[type="button"]:hover {
 .firstMenue ul {
   list-style: none;
   margin: 0;
-  margin-top: 96px;
+  margin-top: 90px;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -115,20 +116,18 @@ input[type="button"]:hover {
 
 .firstMenue ul li {
   float: left;
-  margin-right: 5px;
+  margin-right: 18px;
 }
 
 .firstMenue ul li a {
   text-decoration: none;
-  padding: 5px 15px;
-  font-size: 19px;
+  padding: 7px;
+  font-size: 20px;
   color: #333;
 }
 
 .secoundMenue {
   overflow: hidden;
-  border-top: 1px solid #89c4f4;
-  margin-top: 1px;
 }
 
 .secoundMenue ul {
@@ -137,7 +136,6 @@ input[type="button"]:hover {
   padding: 0;
   display: flex;
   justify-content: center;
-  margin-top: 5px;
 }
 
 .secoundMenue ul li {
@@ -147,62 +145,7 @@ input[type="button"]:hover {
 
 .secoundMenue ul li a {
   text-decoration: none;
-  padding: 12px 13px;
+  padding: 5px 13px;
   font-size: 18px;
   color: #333;
-}
-li.firstaBorader a {
-  border: 1px solid #89C4F4;
-  border-bottom: 1px solid #fff;
-}
-.firstMenue ul li a i {
-  margin-right: 5px;
-  color: #d32f2f;
-}
-
-.secoundMenue ul li a i {
-  font-size: 12px;
-  position: absolute;
-  top: 132px;
-  right: 428px;
-}
-li.stokeProducs a {
-  color: #ee8a62 !important;
-}
-
-li.bookFair a {
-  color: #46cfb6 !important;
-}
-
-.writer {
-  display: flex;
-  justify-content: space-between;
-  background: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.firstCatWriter ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 18px;
-}
-
-.writer {
-  display: flex;
-  width: 85%;
-  justify-content: space-between;
-  background: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: absolute;
-  top: 160px;
-  overflow: hidden;
-  opacity: 0;
-}
-
-.firstCatWriter ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 18px;
 }
